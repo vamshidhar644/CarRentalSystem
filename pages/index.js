@@ -15,7 +15,7 @@ const HomePage = ({IntroData}) => {
       <div className="Home-Container">
         <img src={urlFor(IntroData[0].image && IntroData[0].image)} alt=""/>
         <h1>{IntroData[0].title}</h1>
-        <h4>{IntroData[0].subtitle}</h4>
+        {/* <h4>{IntroData[0].subtitle}</h4> */}
       </div>
     </div>
   )
